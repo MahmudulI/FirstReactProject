@@ -2,11 +2,14 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import root from "./components/root";
 
 function App() {
   return (
     <>
-      <h1 className="bg-green-500">Hellow world</h1>;
+      <div>
+        <root></root>
+      </div>
     </>
   );
 }
